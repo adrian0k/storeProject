@@ -1,0 +1,41 @@
+body
+{
+  font-family: 'Raleway', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Oxygen', sans-serif;
+}
+
+h1
+{
+    line-height: 200%;
+    text-align: left;
+}
+
+nav
+{
+    font-weight: bold;
+    text-align: right;
+}
+
+nav li
+{
+    display: inline-block;
+
+  }
+
+li img
+{
+  width: 50%;
+}
+
+li h2
+{
+    text-align: center;
+}
+
+
+CuadroHome
+{
+  background-color: black;
+
+}
