@@ -10,6 +10,7 @@ h1
 {
     line-height: 200%;
     text-align: left;
+    text-shadow: 1PX 30PX 2PX #1FDA9A;
 }
 
 p
@@ -20,17 +21,33 @@ p
 nav
 {
     font-weight: bold;
-    text-align: right;
+    text-align: center;
+    text-decoration: none;
 }
 
 nav li
 {
     display: inline-block;
     border-style: solid;
-    padding-right: 5%;
+    padding-right: 25px;
+    padding-left: 25px;
     border-radius: .50em;
+    text-decoration: none;
+    font-size: 1.2em;
+
 
   }
+
+main{
+  border: 1px solid black;
+  clear: both;
+  background-color: #F0F0F0;
+}
+
+ImagenHome
+{
+
+}
 
 
 li img
@@ -40,12 +57,45 @@ li img
 
 li h2
 {
-    text-align: center;
+    text-align: left;
+    font-size: 1em;
 }
-
 
 CuadroHome
 {
   background-color: black;
+  margin-right: auto;
+}
 
+main ul
+{
+  display: inline-flex;
+
+}
+
+
+CuadroItems
+{
+  font-size: 5.5em;
+}
+
+/* Code for contact_us.html */
+.top
+{
+  border: 1px solid black;
+  margin-left: 30%;
+  margin-top: auto;
+}
+
+label
+{
+  display: block;
+}
+text{
+  display: block;
+}
+
+textarea
+{
+  display: block;
 }

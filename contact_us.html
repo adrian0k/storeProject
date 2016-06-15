@@ -3,22 +3,54 @@
 
 <head>
     <meta charset="utf-8">
-    <title>
-    </title>
-    <link href="style.css" rel="stylesheet"
+    <title>Contact Us</title>
+    <link href="style.css" rel="stylesheet">
+    <link href="http://fonts.googleapis.com/css?family=loabster" rel="stylesheet" type="text/css">
 </head>
 
-
 <body>
-
   <header>
+      <h1>My little store</h1>
   <nav>
-    <h1>
-    </h1>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact_us.html">Contact us</a></li>
+    </ul>
+
   </nav>
   </header>
 
   <main>
+    <p>Good, nice and quality</p>
+    <div id="CuadroMapa">
+        <img id="ImagenMapa" src="images/map1.png" width="350" height="500" alt="class project">
+    </div>
+    <div class="top">
+      <label for="first">First Name</label>
+      <input type="text" name="first" id="first" value="First name" required>
+      <label for="last">Last Name</label>
+      <input type="text" name="last" id="last" value="Last name" required>
+      <label for="email">Email</label>
+      <input type="email" name="email" id="email" value="e-mail address" required>
+      <label for="about">About</label>
+      <select name="about" id="about">
+        <option value="">Choose one...</option>
+        <option value="Arial">Arial</option>
+        <option value="Calibri">Calibri</option>
+        <option value="Courier">Courier</option>
+        <option value="Verdana">Verdana</option>
+      </select>
+
+        <label for="message">Message:</label>
+        <textarea cols="50"rows="10" name="message" id="message">Message goes here</textarea>
+        <input type="submit" value="Submit" name="submit">
+        <input type="reset" value="Reset" name="reset">
+    </div>
+
+    </div>
+
+
   </main>
 
   <footer>
