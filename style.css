@@ -35,13 +35,28 @@ nav li
     text-decoration: none;
     font-size: 1.2em;
 
-
   }
+
+li
+{
+  background: red;
+  text-align: center;
+  border: 1px solid black;
+  display: inline-block;
+}
+
+li img
+{
+  width: 50%;
+  border: 1px solid black;
+
+}
 
 main{
   border: 1px solid black;
   clear: both;
   background-color: #F0F0F0;
+  height: auto;
 }
 
 ImagenHome
@@ -73,18 +88,45 @@ main ul
 
 }
 
-
 CuadroItems
 {
   font-size: 5.5em;
 }
 
+footer ul li
+{
+  display: inline-block;
+}
+
+footer a
+{
+    text-decoration: none;
+    font-style: italic;
+    color: #0000;
+}
+
 /* Code for contact_us.html */
 .top
 {
-  border: 1px solid black;
-  margin-left: 30%;
+  border: 0.1em solid black;
+  margin-left: 44em;
   margin-top: auto;
+  padding-left: 1.5em;
+  width: 28.5em;
+
+}
+
+div.CuadroMapa
+{
+  float: left;
+  padding-left: 1em;
+}
+/*style="float: left;"*/
+
+div.Direccion
+{
+  margin-left: inherit;
+
 }
 
 label
@@ -98,4 +140,16 @@ text{
 textarea
 {
   display: block;
+}
+
+/* Code for about.html */
+div.ImageAbout
+{
+  float: left;
+  width: 80%;
+}
+
+div.about_right
+{
+  margin-left: 380px;
 }
