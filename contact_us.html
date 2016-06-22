@@ -3,44 +3,48 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Contact Us</title>
+    <title>My vitual store - Contact</title>
     <link href="style.css" rel="stylesheet">
     <link href="http://fonts.googleapis.com/css?family=loabster" rel="stylesheet" type="text/css">
 </head>
 
 <body>
   <header>
-      <h1>My little store</h1>
+      <h1>My virtual store</h1>
   <nav>
     <ul>
       <li><a href="index.html">Home</a></li>
       <li><a href="about.html">About</a></li>
       <li><a href="contact_us.html">Contact us</a></li>
     </ul>
-
   </nav>
   </header>
 
   <main>
     <p>Good, nice and quality</p>
     <div class="CuadroMapa" >
-        <img id="ImagenMapa" src="images/map1.png" width="350" height="500" alt="class project">
-    </div>
-    <div class="Direccion">
-        <p>Address:<br>
+      <div>
+        <img id="ImagenMapa" src="images/map1.png" width="350" height="430" alt="class project">
+        <h4>We are working in the best area</h4>
+        <p>You have parking free all day</p>
+
+      </div>
+      <address>
+          <h2>Address</h2>
            8008 Roosevelt Ave<br>
-           Jackson Heights NY 11377
-        </p>
+           Jackson Heights NY 11377<br>
+       </address>
 
     </div>
 
     <div class="top">
+      <form>
       <label for="first">First Name</label>
       <input type="text" name="first" id="first" value="First name" required>
       <label for="last">Last Name</label>
       <input type="text" name="last" id="last" value="Last name" required>
       <label for="email">Email</label>
-      <input type="email" name="email" id="email" value="e-mail address" required>
+      <input type="email" name="email" id="email" value="email" required>
       <label for="about">About</label>
       <select name="about" id="about">
         <option value="">Choose one...</option>
@@ -54,8 +58,7 @@
         <textarea cols="50"rows="10" name="message" id="message">Message goes here</textarea>
         <input type="submit" value="Submit" name="submit">
         <input type="reset" value="Reset" name="reset">
-    </div>
-
+      </form>
     </div>
 
   </main>

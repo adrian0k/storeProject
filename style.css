@@ -13,16 +13,37 @@ h1
     text-shadow: 1PX 30PX 2PX #1FDA9A;
 }
 
+h2{
+  font-family: sans-serif;
+  font-weight: normal;
+}
+h3
+{
+  font-weight:
+}
+h4
+{
+  font-style: italic;
+}
+
 p
 {
-    font-weight: bold;
+    font-weight: lighter;
 }
 
 nav
 {
     font-weight: bold;
-    text-align: center;
+    text-align: right;
     text-decoration: none;
+}
+
+main img
+{
+/*  margin-left: auto;
+  margin-right: auto;*/
+/*  height: auto;*/
+
 }
 
 nav li
@@ -34,64 +55,63 @@ nav li
     border-radius: .50em;
     text-decoration: none;
     font-size: 1.2em;
-
   }
 
 li
 {
-  background: red;
+  background: #90c5a9;
   text-align: center;
   border: 1px solid black;
   display: inline-block;
+  margin-left: 1.5%;
 }
-
-li img
+li.Items
 {
-  width: 50%;
-  border: 1px solid black;
-
+  background: white;
 }
 
 main{
   border: 1px solid black;
   clear: both;
-  background-color: #F0F0F0;
+  background-color: #F5EACD;
   height: auto;
+  width: auto;
 }
-
-ImagenHome
-{
-
-}
-
 
 li img
 {
-  width: 50%;
+  width: 150px;
+  height: 150px;
+  margin-right: 1%;
+  margin-top: 5%;
+  /*float: left;
+  /*border: 1px solid black;*/
 }
 
 li h2
 {
     text-align: left;
-    font-size: 1em;
-}
-
-CuadroHome
-{
-  background-color: black;
-  margin-right: auto;
+    font-size: 5em;
 }
 
 main ul
 {
   display: inline-flex;
-
+  margin-left: 0%;
 }
 
-CuadroItems
+
+main ul h2
 {
-  font-size: 5.5em;
+    font-size:15.5;
+    text-align: center;
 }
+
+/*div.Precio
+{
+  float: left;
+}*/
+
 
 footer ul li
 {
@@ -105,29 +125,113 @@ footer a
     color: #0000;
 }
 
+//////////////////////////
+/* Code for about.html */
+/////////////////////////
+
+main img
+{
+  margin-left: 2%;
+  clear:right;
+}
+
+div.CuadroAbout
+{
+   clear: both;
+   margin-left: 1%;
+}
+
+div.ParagraphRight, div.Middle
+{
+     background: white;
+     margin-left: 32%;
+     width: 55%;
+     text-align: justify;
+     margin-top: 0%;
+     padding-top: 0;
+
+}
+
+div.BottomLeft
+{
+     background: white;
+     margin-left: 32%;
+     width: 35%;
+     text-align: justify;
+     margin-top: 0%;
+     padding-top: 0;
+     float: left;
+}
+div.BottomRight
+{
+     background: white;
+     margin-left: 32%;
+     width: 65%;
+     text-align: justify;
+     margin-top: 0%;
+}
+
+
+div.ParagraphDown
+{
+     background: white;
+     width: 31%;
+     text-align: justify;
+     font-size: 15.5;
+}
+
+
+/*div.ParagraphRight
+{
+    float: none;
+    padding-left: 50px;
+    font-size: 1.5em;
+
+}*/
+
+
+//////////////////////////////
 /* Code for contact_us.html */
+//////////////////////////////
+
 .top
 {
   border: 0.1em solid black;
-  margin-left: 44em;
-  margin-top: auto;
+  margin-left: 85px;
   padding-left: 1.5em;
-  width: 28.5em;
+  padding-right: 1.5em;
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
+  width: 23.5em;
+}
 
+.top input, .top select, .top textarea
+{
+    font-style: italic;
 }
 
 div.CuadroMapa
 {
+  /*background: green;*/
   float: left;
   padding-left: 1em;
+  width: 60%;
 }
-/*style="float: left;"*/
 
-div.Direccion
+div.CuadroMapa div
 {
-  margin-left: inherit;
+  /*background: white;*/
+  float: left;
+  width: 60%;
 
 }
+
+address
+{
+  margin-left: 285px;*/
+}
+
+
 
 label
 {
@@ -140,16 +244,4 @@ text{
 textarea
 {
   display: block;
-}
-
-/* Code for about.html */
-div.ImageAbout
-{
-  float: left;
-  width: 80%;
-}
-
-div.about_right
-{
-  margin-left: 380px;
 }
