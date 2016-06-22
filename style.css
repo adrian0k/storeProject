@@ -215,20 +215,28 @@ div.CuadroMapa
   /*background: green;*/
   float: left;
   padding-left: 1em;
-  width: 60%;
+  width: 55%;
+  height: auto;
+  clear: both;
 }
 
 div.CuadroMapa div
 {
   /*background: white;*/
   float: left;
-  width: 60%;
+  width: 55%;
+  height: auto;
+  clear: both;
+}
 
+.main CuadroMapa img
+{
+    width: 40%;
 }
 
 address
 {
-  margin-left: 285px;*/
+  margin-left: 285px;
 }
 
 
